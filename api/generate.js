@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     
     // JSON 형태로 안정적인 응답을 받기 위해 gemini-1.5-flash 모델 사용
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-2.5-flash",
+      model: "gemini-3.5-flash",
       generationConfig: {
         responseMimeType: "application/json",
       }
